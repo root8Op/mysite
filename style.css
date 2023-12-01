@@ -10,6 +10,9 @@
     border-color: aquamarine;
     text-align:center;
     padding: 20px;
+    color:wheat;
+    font-family: cursive;
+    font-style: italic;
 }
 #more{
    background-color: rgba(255, 0, 255, 0.297);
