@@ -16,7 +16,12 @@
           checkBox.checked=false;
            
         }
-        
+        else if(checkBox3.checked == true) {
+            text2.style.display = "block";
+            text.style.display = "none";
+           checkBox.checked=false;
+            
+         }
         
         else{
             text.style.display = "none";
