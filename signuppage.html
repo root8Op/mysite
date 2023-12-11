@@ -5,13 +5,7 @@
         <meta name="viewpot" content="css,html,java">
         <title>Registration Page</title>
     </head>
-    <script>function validate(e, form) {
-        var gender = form.querySelectorAll('input[name="gender"]:checked');
-        if (!gender.length) {
-            alert('invalid');
-            e.preventDefault();
-        }
-    }</script>
+    
     <body background="https://images6.alphacoders.com/460/460328.jpg">
         <h2 style="color: rgba(255, 228, 196, 0.718);"><marquee behavior="full" direction="left">SIGNUP HERE</marquee></h2>
         <hr style="border: 2px solid rgba(0, 0, 0, 0.331);">
@@ -26,9 +20,9 @@
             <input type="date">
             <br><br>
             <label for="mycheck"><b>Gender:</b></label><br>
-                <input type="checkbox" name="gender">Male<br>
-                <input type="checkbox">Female<br>
-                <input type="checkbox">others<br>
+                <input type="radio" name="Gender">Male<br>
+                <input type="radio" name="Gender">Female<br>
+                <input type="radio"name="Gender">others<br>
             <br><br>
             <label><b>Phone:</b></label>
             <input type="text" name="country code" value="+91">
