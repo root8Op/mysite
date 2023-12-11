@@ -1,31 +1,29 @@
     function myFunction() {
         var checkBox = document.getElementById("myCheck1");
         var checkBox2 = document.getElementById("myCheck2");
+        var checkBox3 = document.getElementById("mycheck3")
         var text = document.getElementById("text");
-        var text2 = document.getElementById("text2");
         
         if (checkBox.checked == true){
           text.style.display = "block";
-          text2.style.display = "none";
           checkBox2.checked=false;
+          checkBox3.checked=false;
           
       
         } else if(checkBox2.checked == true) {
-           text2.style.display = "block";
            text.style.display = "none";
           checkBox.checked=false;
+          checkBox3.checked=false;
            
         }
         else if(checkBox3.checked == true) {
-            text2.style.display = "block";
             text.style.display = "none";
-           checkBox.checked=false;
-            
+           checkBox2.checked=false;
+            checkBox.checked=false;
          }
         
         else{
             text.style.display = "none";
-             text2.style.display = "none";
             
         }
       }
