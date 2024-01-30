@@ -4,15 +4,10 @@
     border-radius: 60%;
 }
 #heading{
-   background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Beautiful-nature-cool-images-background-hd.jpg);
-    height: 50px;
-    border: 02px solid;
-    border-color: aquamarine;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.861);
     text-align:center;
-    padding: 20px;
-    color:wheat;
-    font-family: cursive;
-    font-style: italic;
+    color:rgb(255, 255, 255);
 }
 #more{
    background-color: rgba(255, 0, 255, 0.297);
