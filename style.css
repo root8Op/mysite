@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+main{
+    flex: 1;
+    overflow: scroll;
+}
 .img-face{
     margin-top: 50px;
     margin-left: 300px; 
