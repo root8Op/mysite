@@ -5,29 +5,29 @@
 }
 .img-face{
     margin-top: 50px;
-    margin-left: 290px; 
+    margin-left: 300px; 
     height: 200px;
     width: 200px;
     border-radius: 60%;
+    box-shadow: 0px 0px 6px;
 }
 #heading{
     padding-top: 0px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.861);
-    text-align:center;
     color:rgb(255, 255, 255);
 }
 #instagram{
-  position: relative;
+    width: 20px;
   color: #fff;
-  margin-left: 90%;
 }
-#close{
-    height: 20px;
-    width: 80px;
+#linkedin{
+    width: 20px;
+    color: #fff;
 }
-#normo{
-     background-color: rgba(255, 0, 255, 0.297);
+#twitter{
+    color: #fff;
+
 }
 #last-note{
     margin-top: 1000px;
@@ -37,4 +37,7 @@
     border-radius: 0px;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+#icon{
+    margin-left: 94%;
 }
