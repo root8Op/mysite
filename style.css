@@ -56,3 +56,7 @@ main{
     padding-top: 10px;
     font-family: inherit ;
 }
+.work img{
+    width: 100px;
+    height: 100px;
+}
