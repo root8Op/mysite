@@ -44,7 +44,7 @@ main{
 #icon{
     margin-left: 94%;
 }
-.work-place{
+.work{
     margin-left: 200px;
     width: 900px;
     margin-top: 550px;
@@ -56,4 +56,10 @@ main{
     padding: 10px;
     width: 500px;
     height: 250px;
+}
+.work-place p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 1000;
+    margin-left: 200px;
 }
