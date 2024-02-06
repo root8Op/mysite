@@ -45,9 +45,9 @@ main{
     margin-left: 94%;
 }
 .work{
-    margin-left: 200px;
+    margin-left: 160px;
     width: 900px;
-    margin-top: 550px;
+    margin-top: 650px;
     border: 1px solid black;
     box-shadow: 0px 0px 6px;
     height: 500px, max-content;
@@ -62,4 +62,18 @@ main{
     font-size: large;
     font-weight: 1000;
     margin-left: 200px;
+}
+.about-section{
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin-left: 80px;
+}
+.about-section p{
+    color: #1a1717;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+.about-section .words{
+    font-size: x-large;
 }
