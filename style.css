@@ -32,15 +32,24 @@ main{
     color: #fff;
 
 }
-#last-note{
+.last-note{
     margin-top: 100px;
     color: aliceblue;
-    font-family: cursive;
     background-color: #7B66FF;
     border-radius: 0px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
+
+.last-note p{
+    padding: 20px;
+    opacity: 0.5;
+    font-size: medium;
+    font-family: monospace;
+}
+
+
 #icon{
     margin-left: 94%;
 }
