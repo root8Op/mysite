@@ -95,15 +95,11 @@ main{
 
 
 .work-place2 img{
-    position: absolute;
-    top: 35px;
     padding: 5px;
     width: 440px;
     height: 250px;
 }
 .work-place2 p{
-    position: absolute;
-    top: 310px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: 1000;
