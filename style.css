@@ -2,10 +2,54 @@
     margin: 0;
     padding: 0;
 }
-main{
-    flex: 1;
-    overflow: scroll;
+
+body{
+    background-size: cover;
+    background-position: fill;
+    overflow-x: hidden;
 }
+
+/* head bar*/
+.heading{
+    max-height: fit-content;
+    padding-top: 10px;
+    background-color:#7B66FF; 
+    position: fixed;
+    color:rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#prof{
+    margin-left: 16%;
+    background-size: cover;
+    margin-top: 80px;
+    padding: 10px;
+    width: 800px;
+    height: max-content;
+    }
+ #speci{
+    padding: 5px;
+   box-shadow: 0px 0px 6px;
+    border:01px solid rgba(10, 10, 10, 0.798);
+    width: 200px;
+    text-align: center;
+    margin-left: 300px;
+    opacity: 0.5;
+ }
+ #para{
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: left;
+ }
+ #x3-xlarge{
+   color: black; text-size-adjust:60%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration-line: underline;
+   text-align: center;
+ }
 .img-face{
     margin-top: 50px;
     margin-left: 300px; 
@@ -14,24 +58,22 @@ main{
     border-radius: 60%;
     box-shadow: 0px 0px 6px;
 }
-.heading{
-    max-height: fit-content;
-    padding-top: 10px;
-    background-color:#7B66FF;
-    color:rgb(255, 255, 255);
-}
 
 .logo{
     height:50px;
+    display: inline-flex;
 }
 
 .logo h1{
+    display: flex;
     width: max-content;
     position: absolute;
     margin-left: 450px;
 }
 
 .logo img{
+    display: flex;
+    position: relative;
     padding-top: 0px;
     height: 50px;
     width:50px;
@@ -52,11 +94,11 @@ main{
 }
 .last-note{
     max-height: fit-content;
-    margin-top: 100px;
     color: aliceblue;
     background-color: #7B66FF;
     border-radius: 0px;
     padding-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -71,14 +113,14 @@ main{
 
 .icon{
     max-width: fit-content;
-    position: right;
+    display: inline-flex;
+    position:absolute;
+    margin-left: 94%;
 }
 .work{
-    background-color: #fff7eb;
     margin-left: 155px;
     width: 920px;
-    margin-top: 650px;
-    border: 1px solid black;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px;
     height: 500px, max-content;
@@ -115,6 +157,7 @@ main{
     padding: 20px;
     width: 600px;
     margin-left: 80px;
+    opacity: 0.5;
 }
 .about-section p{
     color: #1a1717;
