@@ -11,7 +11,9 @@ body{
 
 /* head bar*/
 .heading{
-    max-height: fit-content;
+    display: flex;
+    justify-content: center;
+    height: 60px;
     padding-top: 10px;
     background-color:#7B66FF; 
     position: fixed;
@@ -60,20 +62,18 @@ body{
 
 .logo{
     height:50px;
-    display: inline-flex;
+    display:inline-flex;
 }
 
-.logo h1{
-    display: flex;
-    width: max-content;
+.heading h1{
     position: absolute;
-    margin-left: 450px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .logo img{
-    display: flex;
-    position: relative;
-    padding-top: 0px;
+    margin-right: 180vh;
     height: 50px;
     width:50px;
     border-radius: 50%;
@@ -112,7 +112,7 @@ body{
 
 .icon{
     max-width: fit-content;
-    display: inline-flex;
+    display: inline-block;
     position:absolute;
     margin-left: 94%;
 }
