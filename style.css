@@ -15,9 +15,8 @@ body{
     justify-content: center;
     height: 60px;
     padding-top: 10px;
-    background-color:#7B66FF; 
+    background-color:#FF9913; 
     position: fixed;
-    color:rgb(255, 255, 255);
     top: 0;
     left: 0;
     width: 100%;
@@ -62,7 +61,7 @@ body{
 
 .logo{
     height:50px;
-    display:inline-flex;
+    display:inline-block;
 }
 
 .heading h1{
@@ -70,6 +69,9 @@ body{
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: italic;
+    background: linear-gradient(to top, #ff6b08, #ffff, #ff6b08);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .logo img{
@@ -94,7 +96,7 @@ body{
 .last-note{
     max-height: fit-content;
     color: aliceblue;
-    background-color: #7B66FF;
+    background-color: #FF9913;
     border-radius: 0px;
     padding-top: 10px;
     margin-top: 20px;
