@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-position: fill;
+    overflow-x: hidden;
+}
+
+/* head bar*/
+.heading{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding-top: 10px;
+    background-color:#990000 ; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#prof{
+    margin-left: 16%;
+    background-size: cover;
+    margin-top: 80px;
+    padding: 10px;
+    width: 800px;
+    height: max-content;
+    }
+ #speci{
+    padding: 5px;
+    box-shadow: 0px 0px 6px black;
+    width: 200px;
+    text-align: center;
+    margin-left: 300px;
+    opacity: 1;
+ }
+ #para{
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: left;
+ }
+ #x3-xlarge{
+   color: black; text-size-adjust:60%;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration-line: underline;
+   text-align: center;
+ }
+.img-face{
+    margin-top: 50px;
+    margin-left: 300px; 
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+    box-shadow: 0px 0px 6px;
+}
+
+.logo{
+    height:50px;
+    display:inline-block;
+}
+
+.heading h1{
+    position: absolute;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+
+.logo img{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+#instagram{
+    width: 20px;
+  color: #fff;
+}
+#linkedin{
+    width: 20px;
+    color: #fff;
+}
+#twitter{
+    color: #fff;
+
+}
+.last-note{
+    max-height: fit-content;
+    color: aliceblue;
+    background-color: #990000;
+    border-radius: 0px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+
+.last-note p{
+    text-align: center;
+    padding: 20px;
+    opacity: 1;
+    font-size: large;
+    font-family: monospace;
+}
+
+
+.icon{
+    max-width: fit-content;
+    display: inline-block;
+    position:absolute;
+    margin-left: 94%;
+}
+.work{
+    margin-left: 155px;
+    width: 920px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px;
+    height: 500px, max-content;
+}
+
+.work-place img{
+    padding: 10px;
+    width: 440px;
+    height: 250px;
+}
+.work-place p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 1000;
+    margin-left: 180px;
+}
+
+
+.work-place2 img{
+    padding: 5px;
+    width: 440px;
+    height: 250px;
+}
+.work-place2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 1000;
+    margin-left: 165px;
+}
+
+
+.about-section{
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    margin-left: 80px;
+    opacity: 1;
+}
+.about-section p{
+    color: rgb(146, 152, 159);
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+.about-section .words{
+    font-size: x-large;
+    color:rgb(146, 152, 159);
+}
