@@ -13,6 +13,7 @@ body{
 .heading{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: fit-content;
     padding-top: 10px;
     background-color:#990000 ; 
@@ -61,15 +62,19 @@ body{
 
 .logo{
     display:inline-block;
-    margin-right: 65rem;
+    width: 0;
+    margin-right: 78rem;
 }
 
 .heading h1{
     position: absolute;
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: "Josefin Slab", serif;
+    font-weight:bold;
+    font-size: 3rem;
+    margin-right: 45rem;
     color: #fff;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 1px 4px 4px black, 0 0 25px rgb(255, 0, 0);
 }
 
 .logo img{
@@ -114,6 +119,7 @@ body{
     display: inline-block;
     position:absolute;
     margin-left: 94%;
+    margin-bottom: 8%;
 }
 .work{
     margin-left: 155px;
