@@ -31,7 +31,10 @@ body{
     padding: 10px;
     width: 800px;
     height: max-content;
-    }
+}
+
+
+
  #speci{
     padding: 5px;
     box-shadow: 0px 0px 6px black;
@@ -40,17 +43,26 @@ body{
     margin-left: 300px;
     opacity: 1;
  }
+
+
+
  #para{
     margin-left: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif; 
     text-align: left;
  }
+
+
+
  #x3-xlarge{
    color: black; text-size-adjust:60%;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-decoration-line: underline;
    text-align: center;
  }
+
+
+
 .img-face{
     margin-top: 50px;
     margin-left: 300px; 
