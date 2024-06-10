@@ -113,7 +113,7 @@ body{
 
 }
 .last-note{
-    max-height: fit-content;
+    height: 70px;
     color: aliceblue;
     background-color: #990000;
     border-radius: none;
