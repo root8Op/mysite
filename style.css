@@ -116,18 +116,19 @@ body{
     max-height: fit-content;
     color: aliceblue;
     background-color: #990000;
-    border-radius: 0px;
+    border-radius: none;
     padding-top: 10px;
     margin-top: 20px;
+    
 }
 
 
 .last-note p{
     text-align: center;
     padding: 20px;
-    opacity: 1;
-    font-size: large;
-    font-family: monospace;
+    opacity: 0.5;
+    font-size: small;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 
