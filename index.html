@@ -118,16 +118,21 @@
 <body>
     
    <!----head-->
-   <header class="heading">
-      <div class="icon">
-      <a href="https://www.instagram.com/harshit_gupta019/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i  id="instagram" class="fa-brands fa-instagram fa-lg"></i></a>
-      <a href="https://www.linkedin.com/in/harshit-gupta-473a44275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i id="linkedin" class="fa-brands fa-linkedin fa-lg"></i></a>
-      <a href="https://x.com/HarshitGupta_17?t=uzYsZfBvtSeDGC0fnxOkTw&s=08 "><i id="twitter" class="fa-brands fa-twitter fa-lg"></i></a>
-      </div>
-      <h1>WEBSTAR</h1>
-      <div class="logo">
-      <a  href="https://root8op.github.io/mysite/"><img draggable="false" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/logo-symbolfinal.png" alt="logo"></a>
-      </div>
+   <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom heading">
+      <a href="https://root8op.github.io/mysite/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+       <img draggable="false" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/logo-symbolfinal.png" alt="logo">
+        <span class="fs-4">WEBSTAR</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="https://root8op.github.io/mysite/" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+      
+      </a>
    </header>
 
 
@@ -194,8 +199,13 @@
      <!---Footer-->
 
      <footer class="last-note">
-      <p>  Copyright© <span id="current-year"></span> <strong>WEBSTAR</strong>.All rights are reserved
-     </footer>
+         <p>  Copyright© <span id="current-year"></span> <strong>WEBSTAR</strong>.All rights are reserved</p>
+         <div class="icon">
+         <a href="https://www.instagram.com/harshit_gupta019/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i  id="instagram" class="fa-brands fa-instagram fa-lg"></i></a>
+         <a href="https://www.linkedin.com/in/harshit-gupta-473a44275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i id="linkedin" class="fa-brands fa-linkedin fa-lg"></i></a>
+         <a href="https://x.com/HarshitGupta_17?t=uzYsZfBvtSeDGC0fnxOkTw&s=08 "><i id="twitter" class="fa-brands fa-twitter fa-lg"></i></a>
+         </div>
+      </footer>
 
 
 <script>
@@ -205,10 +215,8 @@
    document.getElementById("current-year").innerHTML = currentYear;
 
 </script>
-
-
-
-
+<!--Added bootstrsap javascript link-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body> 
 </html>
