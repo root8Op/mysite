@@ -7,9 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: fill;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 /* head bar*/
@@ -29,54 +27,6 @@ body{
 .heading a{
     max-width: fit-content;
 }
-
-#prof{
-    display: flex;
-    margin-left: 16%;
-    background-size: cover;
-    margin-top: 80px;
-    padding: 10px;
-    width: 800px;
-    height: max-content;
-}
-
-
-
- #speci{
-    margin-top: 40px;
-    padding: 5px;
-    width: 200px;
-    text-align: center;
-    opacity: 1;
- }
-
-
-
- #para{
-    margin-left: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    text-align: left;
- }
-
-
-
- #x3-xlarge{
-   color: black;
-   font-size: large;
-   font-weight: 700;
-   font-family:"Josefin Sans", sans-serif;
-   text-decoration-line: underline;
-   text-align: center;
- }
-
-
-
-.w3-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
 
 .heading img{
   height: 100px;
