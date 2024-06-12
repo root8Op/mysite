@@ -101,6 +101,11 @@ body{
     text-decoration: none;
 }
 
+.nav-item a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 #instagram{
     width: 20px;
   color: #fff;
