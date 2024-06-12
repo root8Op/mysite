@@ -109,11 +109,14 @@ body{
 }
 .last-note{
     display: grid;
+    position: fixed;
+    bottom: 0;
     max-height: fit-content;
     color: aliceblue;
     background-color: #990000;
     padding-top: 10px;
     margin-top: 20px;
+    width: 100%;
 }
 
 
