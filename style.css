@@ -126,35 +126,6 @@ body{
     color: #fff;
 
 }
-.last-note{
-    display: grid;
-    position: fixed;
-    bottom: 0;
-    max-height: fit-content;
-    color: aliceblue;
-    background-color: #990000;
-    padding-top: 10px;
-    margin-top: 20px;
-    width: 100%;
-}
-
-
-.last-note p{
-    text-align: center;
-    opacity: 0.5;
-    font-size: small;
-    font-family: "Josefin Sans", sans-serif;
-    margin-bottom: 0;
-}
-
-
-.icon{
-max-width: fit-content;
-display: flex;
-justify-self: center;
-align-self: center;
-}
-
 .icon a{
     padding-inline: 5px;
     opacity: 0.5;
@@ -222,4 +193,34 @@ align-self: center;
 
 .card h5{
     padding-bottom: 5px;
+}
+
+/*Footer of the webpage*/
+.last-note{
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    max-height: fit-content;
+    color: aliceblue;
+    background-color: #990000;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.last-note p{
+    text-align: center;
+    opacity: 0.5;
+    font-size: small;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0;
+}
+
+
+.icon{
+max-width: fit-content;
+display: flex;
+justify-self: center;
+align-self: center;
 }
