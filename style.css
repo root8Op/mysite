@@ -15,11 +15,9 @@ body{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    padding-top: 10px;
     background-color:#990000 ; 
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
 }
 
@@ -104,6 +102,11 @@ body{
 .nav-item a:visited{
     color: #ffffff;
     text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: rgb(191, 201, 212);
+    text-decoration: underline;
 }
 
 #instagram{
