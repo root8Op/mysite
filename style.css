@@ -4,6 +4,9 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-position: fill;
     overflow-x: hidden;
@@ -12,6 +15,7 @@ body{
 /* head bar*/
 .heading{
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     height: fit-content;
@@ -74,17 +78,14 @@ body{
     align-items: center;
 } 
 
-
-.img-face{
-    height: 200px;
-    width: 200px;
-}
 .heading img{
   height: 100px;
   width: 100px;
+  padding: 0;
 }
 
 .heading span{
+    padding: 0;
     font-family:  "Bungee Spice", sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
@@ -196,22 +197,29 @@ align-self: center;
 }
 
 
-.about-section{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 80px;
-    opacity: 1;
+.card{
+   display: flex;
+   flex-direction: column;
+   position: static;
+   margin-top: 200px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    margin-bottom: 100px;
+    border: none;
+    width: 600px;
 }
-.about-section p{
-    color: rgb(146, 152, 159);
-    font-size: large;
-    font-family: "Poppins", sans-serif;
+
+
+.card img{
+    height: 200px;
+    width: 200px;
 }
-.about-section .words{
-    font-size: x-large;
-    color:rgb(146, 152, 159);
+
+.card p{
+    opacity: 0.5;
+}
+
+.card h5{
+    padding-bottom: 5px;
 }
