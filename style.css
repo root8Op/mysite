@@ -10,6 +10,12 @@ body{
     width: 100%;
 }
 
+.topview video{
+    margin-top: 5rem;
+}
+
+
+
 /* head bar*/
 .heading{
     display: flex;
