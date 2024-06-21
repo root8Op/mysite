@@ -10,11 +10,16 @@ body{
     width: 100%;
 }
 
-.topview video{
-    margin-top: 5rem;
+.topview{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    max-width: fit-content;
 }
 
-
+.topview img{
+    height: 400px;
+    width: 1000px;
+}
 
 /* head bar*/
 .heading{
