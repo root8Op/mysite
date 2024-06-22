@@ -66,9 +66,9 @@ body{
 .start-page{
     display: flex;
     flex-direction: column;
-    background: url(https://raw.githubusercontent.com/root8Op/mysite/main/Assets/png.site-1.png);
+    background: url();
     min-height: 720px;
-    width: 638px;
+    width: 1280px;
     margin-top: 100px;
     margin-right: 50px;
     margin-bottom: 50px ;
