@@ -5,6 +5,8 @@
 
 body{
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -142,14 +144,14 @@ body{
 
 /*Footer of the webpage*/
 .last-note{
-    display: grid;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
     bottom: 0;
     max-height: fit-content;
     color: aliceblue;
     background-color: #990000;
     padding-top: 10px;
-    margin-top: 20px;
     width: 100%;
 }
 
