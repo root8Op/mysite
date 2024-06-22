@@ -61,6 +61,24 @@ body{
     text-decoration: underline;
 }
 
+/*Main page PS: front page*/
+
+.start-page{
+    display: flex;
+    flex-direction: column;
+    background: url(https://raw.githubusercontent.com/root8Op/mysite/main/Assets/png.site-1.png);
+    min-height: 720px;
+    width: 638px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px ;
+}
+
+.start-page .page-items{
+   
+    
+}
+
 #instagram{
     width: 20px;
   color: #fff;
