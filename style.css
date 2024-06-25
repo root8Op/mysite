@@ -73,6 +73,17 @@ body{
     margin-top: 110px;
 }
 
+.page-items h3{
+    color: #ffffff;
+    font-family:"Josefin Sans", sans-serif ;
+    font-weight: 700;
+    font-size: xx-large;
+    padding: 30px;
+}
+
+.page-items h3 span{
+    padding-left: 80px ;
+}
 
 #instagram{
     width: 20px;
