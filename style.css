@@ -66,19 +66,13 @@ body{
 .start-page{
     display: flex;
     flex-direction: column;
-    background: url(https://raw.githubusercontent.com/root8Op/mysite/main/Assets/Png-site.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url(https://raw.githubusercontent.com/root8Op/mysite/main/Assets/12882-242487537.gif);
+    background-size: cover;
     height: 400px;
-    width: 1024px;
-    margin-top: 100px;
-    margin-left: 150px;
+    width: 1000px;
+    margin-top: 110px;
 }
 
-.start-page .page-items{
-   
-    
-}
 
 #instagram{
     width: 20px;
