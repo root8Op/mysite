@@ -81,7 +81,8 @@ body{
 }
 
 .page-items h3 span{
-    padding-left: 80px ;
+    padding-left: 80px;
+    color: #000;
 }
 
 .mainframe{
@@ -92,7 +93,7 @@ body{
    align-self:center;
    margin-left: 100px;
    justify-content: center;
-   align-items: centerc;
+   align-items: center;
 
 }
 
