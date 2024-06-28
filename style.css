@@ -117,27 +117,39 @@ body{
 .features{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 120px;
+    text-align: center;
 }
 .features h1{
     justify-self: flex-start;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-left: 20px;
     font-weight: 700;
     font-family: "Josefin Sans", sans-serif;
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
 .features-items{
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-left: 30px;
+    text-align: justify;
+    justify-content: center;
     
 }
 .features-items img{
     height:300px;
 }
 
+.item-1 h3{
+    margin-top: 20px;
+}
+
+.item-1 h3 span{
+    color: black;
+    opacity: 0.5;
+    font-size: x-large;
+}
 /*about page section*/
 
 
