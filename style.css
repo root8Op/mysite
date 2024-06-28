@@ -139,17 +139,31 @@ body{
 }
 .features-items img{
     height:300px;
+    padding-left: 10px;
 }
 
 .item-1 h3{
     margin-top: 20px;
+    padding-left: 20px;
 }
 
-.item-1 h3 span{
+.item-1 p{
     color: black;
     opacity: 0.5;
     font-size: x-large;
+    padding-left: 30px;
 }
+.item-2 h3{
+    margin-top: 20px;
+}
+
+.item-2 p{
+    color: black;
+    opacity: 0.5;
+    font-size: x-large;
+    
+}
+
 /*about page section*/
 
 
