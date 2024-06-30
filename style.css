@@ -19,7 +19,7 @@ body{
 
 .heading{
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: fit-content;
@@ -139,21 +139,29 @@ body{
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-.mySlides {
     display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.arrow{
     height: 100px;
     width: 100px;
+    cursor: pointer;
 }
+
+.right{
+    transform: rotate(180deg);
+}
+
+.mySlides img{
+    height: 400px;
+    width: 800px;
+}
+
 /* Customize next/previous buttons, captions, and dots */
 /* Add your own styles here */
-.mySlides img{
-    height: 200px;
-    width: 200px;
-}
 
 /*features page section*/
 .features{
