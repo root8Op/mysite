@@ -92,15 +92,14 @@ body{
 }
 
 .page-items p{
-    color: #ffffff;
-    opacity: 0.5;
+    color: #b1b1b1;
     padding-left: 70px;
     padding-top: 40px;
 }
 
 .mainframe{
     display: flex;
-    position: relative;
+    position: static;
    max-height: fit-content;
    max-width: fit-content;
    align-self:center;
@@ -113,8 +112,47 @@ body{
 
 .mainframe img{
     height: 300px;
-    position: static;
 }
+
+/*work section*/
+
+
+.work-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #990000;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.work-section h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+/* Customize next/previous buttons, captions, and dots */
+/* Add your own styles here */
+.mySlides img{
+    height: 200px;
+    width: 100%;
+}
+
 /*features page section*/
 .features{
     display: flex;
@@ -188,7 +226,7 @@ body{
 }
 
 .card p{
-    opacity: 0.5;
+    color: #b1b1b1;
 }
 
 .card h5{
