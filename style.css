@@ -144,13 +144,15 @@ body{
     margin: auto;
 }
 .mySlides {
-    display: none;
+    display: flex;
+    height: 100px;
+    width: 100px;
 }
 /* Customize next/previous buttons, captions, and dots */
 /* Add your own styles here */
 .mySlides img{
     height: 200px;
-    width: 100%;
+    width: 200px;
 }
 
 /*features page section*/
