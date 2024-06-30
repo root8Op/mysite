@@ -19,14 +19,13 @@ body{
 
 .heading{
     display: flex;
-    position: relative;
-    justify-content: center;
+    position: sticky;
     align-items: center;
     height: fit-content;
-    background-color:#990000 ; 
-    position: fixed;
+    background-color:#990000 ;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 
@@ -40,7 +39,6 @@ body{
   padding: 0;
   margin-left: 20px;
 }
-
 
 .nav-item a{
     font-family: "Josefin Sans", sans-serif;
@@ -62,6 +60,8 @@ body{
     color: rgb(191, 201, 212);
     text-decoration: underline;
 }
+/* header ends here*/
+
 
 /*Main page PS: front page*/
 
@@ -113,15 +113,17 @@ body{
 .mainframe img{
     height: 300px;
 }
+/*main front frame ends*/
 
-/*work section*/
+
+/*work section my carousel*/
 
 
 .work-section{
     display: flex;
     flex-direction: column;
     background-color: #990000;
-    width: 1000px;
+    max-width: fit-content ;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
     justify-content: center;
@@ -140,15 +142,26 @@ body{
 /* Slideshow container */
 .slideshow-container {
     display: flex;
+    max-width: 1000px;
+    height: 500px;
     align-items: center;
     gap: 0px;
 }
 
+.mySlides{
+    display: none;
+}
 
 .arrow{
-    height: 100px;
-    width: 100px;
     cursor: pointer;
+    position: absolute;
+    font-size: 50px;
+    transform: translate(0, -50%);
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+    user-select: none;
 }
 
 .right{
@@ -157,8 +170,51 @@ body{
 
 .mySlides img{
     height: 400px;
-    width: 800px;
+    width: 1000px;
 }
+
+.arrow:hover{
+    color: #b1b1b1;
+}
+
+.next{
+    margin-left: 950px;
+}
+
+.dotsbox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 450px;
+    cursor: pointer;
+}
+
+.dotsbox .dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from {opacity: 0.8;}
+    to {opacity: 1;}
+}
+@keyframes fade{
+    from {opacity: 0.8;}
+    to {opacity: 1;}
+}
+
 
 /* Customize next/previous buttons, captions, and dots */
 /* Add your own styles here */
