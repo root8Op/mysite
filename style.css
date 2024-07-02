@@ -215,6 +215,9 @@ body{
     to {opacity: 1;}
 }
 
+.mySlides .text{
+    position: absolute;
+}
 
 /* Customize next/previous buttons, captions, and dots */
 /* Add your own styles here */
