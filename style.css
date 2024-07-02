@@ -148,7 +148,7 @@ body{
     gap: 0px;
 }
 
-.mySlides{
+.myslides{
     display: none;
 }
 
@@ -168,7 +168,7 @@ body{
     transform: rotate(180deg);
 }
 
-.mySlides img{
+.myslides img{
     height: 400px;
     width: 1000px;
 }
@@ -180,7 +180,17 @@ body{
 .next{
     margin-left: 950px;
 }
-
+.myslides .txt{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-left: 25rem;
+    margin-top: 28%;
+}
+.txt h4{
+    font-weight: 700;
+    font-size: xx-large;
+}
 .dotsbox{
     position: absolute;
     left: 50%;
@@ -215,9 +225,7 @@ body{
     to {opacity: 1;}
 }
 
-.mySlides .text{
-    position: absolute;
-}
+
 
 /* Customize next/previous buttons, captions, and dots */
 /* Add your own styles here */
