@@ -148,7 +148,7 @@ body{
     gap: 0px;
 }
 
-.myslide{
+.myslides{
     display: none;
 }
 
@@ -168,7 +168,7 @@ body{
     transform: rotate(180deg);
 }
 
-.myslide img{
+.myslides img{
     height: 400px;
     width: 1000px;
     transform: scale(1, 1);
@@ -194,7 +194,7 @@ body{
 .next{
     margin-left: 950px;
 }
-.myslide .txt{
+.myslides .txt{
     position: absolute;
     color: #fff;
     letter-spacing: 3px;
@@ -241,7 +241,7 @@ body{
     border-color: grey;
 }
 
-.fade{
+.grow{
     -webkit-animation-name:fade;
     -webkit-animation-duration:1.5s;
     animation-name: fade;

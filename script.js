@@ -1,4 +1,4 @@
- const myslide = document.querySlectorAll('.myslide'),
+ const myslide = document.querySlectorAll('.myslides'),
         dot = document.querySelectorAll('.dot');
 
 
