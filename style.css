@@ -148,7 +148,7 @@ body{
     gap: 0px;
 }
 
-.myslides{
+.myslide{
     display: none;
 }
 
@@ -168,9 +168,23 @@ body{
     transform: rotate(180deg);
 }
 
-.myslides img{
+.myslide img{
     height: 400px;
     width: 1000px;
+    transform: scale(1, 1);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 1s;
+    animation-name: zoomin;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes zoomin{
+    from {transform: scale(0.5, 0.5);}
+    to {transform: scale(1, 1);}
+}
+@keyframes zoomin{
+    from {transform: scale(0.5, 0.5);}
+    to {transform: scale(1, 1);}
 }
 
 .arrow:hover{
@@ -180,13 +194,27 @@ body{
 .next{
     margin-left: 950px;
 }
-.myslides .txt{
+.myslide .txt{
     position: absolute;
     color: #fff;
     letter-spacing: 3px;
     margin-left: 25rem;
     margin-top: 28%;
+    -webkit-animation-name: posi;
+    -webkit-animation-duration: 2s;
+    animation-name: posi;
+    animation-duration: 2s;
+    z-index: 1;
 }
+@-webkit-keyframes posi{
+    from {left: 20%;}
+    to {left: 10%;}
+}
+@keyframes posi{
+    from {left: 20%;}
+    to {left: 10%;}
+}
+
 .txt h4{
     font-weight: 700;
     font-size: xx-large;
@@ -207,6 +235,10 @@ body{
     border-radius: 50%;
     margin: 0 10px;
     cursor: pointer;
+}
+
+.active, .dot:hover{
+    border-color: grey;
 }
 
 .fade{

@@ -53,25 +53,25 @@
       <div class="slideshow-container">
          
          <!-- Full-width images with number and caption text -->
-         <div class="myslides fade" style="display: block;">
+         <div class="myslide fade" style="display: block;">
                <div class="txt"><h4>Login Page</h4></div>
                <img draggable="false" class="image" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/login%231.png" alt="loginpage2">
                
          </div>
 
-         <div class="myslides fade">
+         <div class="myslide fade">
             <div class="txt"><h4>Caption Text</h4></div>
             <img draggable="false" class="image" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/signup%232.png" alt="signuppage">
          </div>
         
       </div><!--end of sliding container--->
-         <a class="prev arrow">&#10094;</a>
-         <a class="next arrow">&#10095;</a>
+         <a class="prev arrow" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next arrow" onclick="plusSlides(1)">&#10095;</a>
       <div class="dotsbox" style="text-align: center;">
-         <span class="dot"></span>
-         <span class="dot"></span>
-         <span class="dot"></span>
-         <span class="dot"></span>
+         <span class="dot" onclick="currentslide(1)"></span>
+         <span class="dot" onclick="currentslide(2)"></span>
+         <span class="dot" onclick="currentslide(3)"></span>
+         <span class="dot" onclick="currentslide(4)"></span>
       </div>
 
 
