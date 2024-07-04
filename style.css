@@ -351,7 +351,7 @@ body{
     margin-top: auto;
     bottom: 0;
     max-height: fit-content;
-    color: aliceblue;
+    color: #b1b1b1;
     background-color: #990000;
     padding-top: 10px;
     width: 100%;
@@ -360,7 +360,8 @@ body{
 
 .last-note p{
     text-align: center;
-    opacity: 0.5;
+    font-weight: 600;
+    opacity: 0.7;
     font-size: small;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 0;
