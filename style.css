@@ -197,6 +197,7 @@ body{
 .myslides .txt{
     position: absolute;
     color: #fff;
+    -webkit-text-stroke: 2px black;
     letter-spacing: 3px;
     margin-left: 34%;
     margin-top: 28%;
@@ -216,8 +217,9 @@ body{
 }
 
 .txt h4{
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 2rem;
 }
 .dotsbox{
     position: absolute;
