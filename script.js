@@ -1,9 +1,12 @@
-const myslide = document.querySelectorAll('.myslides');
-const	  dot = document.querySelectorAll('.dot');
+const myslide = document.querySelectorAll('.myslides'),
+ dot = document.querySelectorAll('.dot');
+
 let counter = 1;
+
 slidefun(counter);
 
 let timer = setInterval(autoSlide, 8000);
+
 function autoSlide() {
 	counter += 1;
 	slidefun(counter);
@@ -30,7 +33,7 @@ function slidefun(n) {
 		myslide[i].style.display = "none";
 	}
 	for(i = 0;i<dot.length;i++) {
-		dot[i].classList.remove('active');
+		dot[i].className = dot[i].className.replace(' active', '');
 	}
 	if(n > myslide.length){
 	   counter = 1;
@@ -39,5 +42,5 @@ function slidefun(n) {
 	   counter = myslide.length;
 	   }
 	myslide[counter - 1].style.display = "block";
-	dot[counter - 1].classList.add('active');
+	dot[counter - 1].className += " active";
 }
