@@ -44,33 +44,34 @@
          </p>
       </div>
       <div class="mainframe">
-         <img id="webframe" draggable="false" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/main-framesite.png" alt="monitor png">
+         <img id="webframe" draggable="false" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/png-screens.png" alt="monitor png">
       </div>
    </div>
    <div class="work-section">
       <h2><u>MY WORK(Under Development)</u></h2>
        <!-- Slideshow container -->
-      <div class="slideshow-container">
-         
-         <!-- Full-width images with number and caption text -->
-         <div class="myslides grow" style="display: block;">
-               <div class="txt"><h4>LOGIN PAGE</h4></div>
-               <img draggable="false" class="image" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/login%231.png" alt="loginpage2">
-               
+       <div id="carouselExampleIndicators" class="carousel slide">
+         <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
          </div>
-
-         <div class="myslides grow">
-            <div class="txt"><h4>SIGNUP PAGE</h4></div>
-            <img draggable="false" class="image" src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/signup%232.png" alt="signuppage">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/login%231.png" class="d-block grow w-100" alt="...">
+           </div>
+           <div class="carousel-item">
+             <img src="https://raw.githubusercontent.com/root8Op/mysite/main/Assets/signup%232.png" class="d-block w-100" alt="...">
+           </div>
          </div>
-        
-      </div><!--end of sliding container--->
-         <a class="prev arrow" onclick="plusSlides(-1)">&#10094;</a>
-         <a class="next arrow" onclick="plusSlides(1)">&#10095;</a>
-      <div class="dotsbox" style="text-align: center;">
-         <span class="dot active" onclick="currentslide(1)"></span>
-         <span class="dot" onclick="currentslide(2)"></span>
-      </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
 
 
    </div>

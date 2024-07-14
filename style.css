@@ -81,7 +81,7 @@ body{
     font-family:"Josefin Sans", sans-serif ;
     font-weight: 700;
     font-size: xx-large;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 70px;
     
 }
@@ -92,7 +92,7 @@ body{
 }
 
 .page-items p{
-    color: #b1b1b1;
+    color: #c6c7c7;
     padding-left: 70px;
     padding-top: 40px;
 }
@@ -139,7 +139,7 @@ body{
     font-size: x-large;
 }
 
-/* Slideshow container */
+/* Carousel container */
 .slideshow-container {
     display: flex;
     max-width: 1000px;
@@ -148,27 +148,8 @@ body{
     gap: 0px;
 }
 
-.myslides{
-    display: none;
-}
 
-.arrow{
-    cursor: pointer;
-    position: absolute;
-    font-size: 50px;
-    transform: translate(0, -50%);
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.1s;
-    user-select: none;
-}
-
-.right{
-    transform: rotate(180deg);
-}
-
-.myslides img{
+.carousel-item img{
     height: 400px;
     width: 1000px;
     transform: scale(1, 1);
@@ -187,82 +168,12 @@ body{
     to {transform: scale(1, 1);}
 }
 
-.arrow:hover{
-    color: #b1b1b1;
-}
 
-.next{
-    margin-left: 950px;
-}
-.myslides .txt{
-    position: absolute;
-    color: #fff;
-    -webkit-text-stroke: 2px black;
-    letter-spacing: 3px;
-    margin-left: 34%;
-    margin-top: 28%;
-    -webkit-animation-name: posi;
-    -webkit-animation-duration: 2s;
-    animation-name: posi;
-    animation-duration: 2s;
-    z-index: 1;
-}
-@-webkit-keyframes posi{
-    from {left: 20%;}
-    to {left: 10%;}
-}
-@keyframes posi{
-    from {left: 20%;}
-    to {left: 10%;}
-}
-
-.txt h4{
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-}
-.dotsbox{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 450px;
-    cursor: pointer;
-}
-
-.dotsbox .dot{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.active, .dot:hover{
-    border-color: grey;
-}
-
-.grow{
-    -webkit-animation-name:fade;
-    -webkit-animation-duration:1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade{
-    from {opacity: 0.8;}
-    to {opacity: 1;}
-}
-@keyframes fade{
-    from {opacity: 0.8;}
-    to {opacity: 1;}
-}
+/* Carousel cotainer ends here */
 
 
+/*work section my carousel ends here*/
 
-/* Customize next/previous buttons, captions, and dots */
-/* Add your own styles here */
 
 /*features page section*/
 .features{
@@ -337,7 +248,7 @@ body{
 }
 
 .card p{
-    color: #b1b1b1;
+    color: #c6c7c7;
 }
 
 .card h5{
