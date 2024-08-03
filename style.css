@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #1B1B1B;
+    background-color: #5ce1e6;
     width: 100%;
 }
 
@@ -24,7 +24,6 @@ body{
     align-items: center;
     height: fit-content;
     background-color: transparent;
-    box-shadow:0 0px 100px #990000;
     top: 0;
     width: 100%;
     z-index: 2;
@@ -64,7 +63,7 @@ body{
 }
 
 .nav-item .glow{
-    background-color: #990000;
+    background-color: #324b4c;
 }
 
 
@@ -86,7 +85,7 @@ body{
 }
 
 .page-items h3{
-    color: #990000;
+    color: #324b4c;
     font-family:"Josefin Sans", sans-serif ;
     font-weight: 700;
     font-size: 60px;
@@ -95,16 +94,17 @@ body{
     text-shadow: 1px 1px 1px #ffffff;
 }
 .page-items h3 #code{
-    color: #990000;
+    color: #324b4c;
 }
 
 
 .page-items h3 #future{
-    color: #990000;
+    color: #324b4c;
 }
 
 .page-items p{
-    color: #ffffff;
+    color: #324b4c;
+    opacity: 0.5;
     padding-left: 70px;
     padding-top: 40px;
 }
@@ -283,8 +283,8 @@ body{
     margin-top: auto;
     bottom: 0;
     max-height: fit-content;
-    color: #ffffff;
-    background-color: #990000;
+    color: #324b4c;
+    background: white;
     padding-top: 10px;
     width: 100%;
 }
@@ -308,14 +308,14 @@ align-self: center;
 
 #instagram{
     width: 20px;
-  color: #fff;
+  color: #324b4c;
 }
 #linkedin{
     width: 20px;
-    color: #fff;
+    color: #324b4c;
 }
 #twitter{
-    color: #fff;
+    color: #324b4c;
 
 }
 .icon a{
