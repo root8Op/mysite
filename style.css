@@ -35,9 +35,9 @@ body{
 }
 
 .heading img{
-  height: 48px;
-  width: 230px;
-  padding: 0;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
   margin-left: 20px;
 }
 
