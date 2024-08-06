@@ -9,11 +9,13 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #5ce1e6;
     width: 100%;
 }
 
-
+#first{
+    background-color: #5ce1e6;
+    width: 100%;
+}
 
 /* head bar*/
 
@@ -41,9 +43,10 @@ body{
   margin-left: 20px;
 }
 
+
 .nav-item a{
     font-family: "Josefin Sans", sans-serif;
-    font-size: small;
+    font-size: 16px;
 }
 
 
@@ -58,13 +61,10 @@ body{
 }
 
 .nav-item a:hover{
-    color: rgb(191, 201, 212);
+    color: #324b4c;
     text-decoration: underline;
 }
 
-.nav-item .glow{
-    background-color: #324b4c;
-}
 
 
 /* header ends here*/
@@ -77,6 +77,7 @@ body{
     flex-direction: row;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 100px;
     height: 400px;
     width: 1000px;
     margin-top: 40px;
@@ -133,13 +134,13 @@ body{
 .work-section{
     display: flex;
     flex-direction: column;
-    background-color: #324b4c;
+    background-color: #5ce1e6;
+    box-shadow: 1px 1px 1px 2px #324b4c;
     max-width: fit-content ;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
     justify-content: center;
     background-repeat: no-repeat;
-    margin-bottom: 100px;
     margin-top: 100px;
 }
 
@@ -202,8 +203,8 @@ body{
     padding-left: 20px;
     font-weight: 700;
     font-family: "Josefin Sans", sans-serif;
-    color: #990000;
-    text-shadow: 1px 1px 1px #ffffff;
+    color: #5ce1e6;
+    text-shadow: 1px 1px 1px #324b4c;
     font-size: 3rem;
 }
 
@@ -222,25 +223,27 @@ body{
 
 
 .item-1 h3{
-    color: #990000;
+    color: #5ce1e6;
+    text-shadow: 1px 1px 1px #324b4c;
     font-size: 30px;
     margin-top: 20px;
     letter-spacing: -2px;
 }
 
 .item-1 p{
-    color: #ffffff;
+    color: #324b4c;
     padding-left: 30px;
 }
 .item-2 h3{
-    color: #990000;
+    color: #5ce1e6;
+    text-shadow: 1px 1px 1px #324b4c;
     letter-spacing: -2px;
     font-size: 30px;
     margin-top: 20px;
 }
 
 .item-2 p{
-    color: #ffffff;
+    color: #324b4c;
     padding-left: 20px;
     
 }
@@ -253,7 +256,7 @@ body{
     flex-direction: column;
     background-color: transparent;
     position: static;
-    margin-top: 200px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
