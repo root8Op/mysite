@@ -75,7 +75,6 @@ body{
 .start-page{
     display: flex;
     flex-direction: row;
-    /* background: url(https://raw.githubusercontent.com/root8Op/mysite/main/Assets/png-siteframe.png); */
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
@@ -134,7 +133,7 @@ body{
 .work-section{
     display: flex;
     flex-direction: column;
-    background-color: #990000;
+    background-color: #324b4c;
     max-width: fit-content ;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
