@@ -15,6 +15,7 @@ body{
 #first{
     background-color: #5ce1e6;
     width: 100%;
+    height: 100rem;
 }
 
 /* head bar*/
@@ -62,7 +63,7 @@ body{
 
 .nav-item a:hover{
     color: #324b4c;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -72,12 +73,17 @@ body{
 
 /*Main page PS: front page*/
 
+#Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .start-page{
     display: flex;
     flex-direction: row;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 100px;
     height: 400px;
     width: 1000px;
     margin-top: 40px;
@@ -129,6 +135,12 @@ body{
 
 
 /*work section my carousel*/
+#Feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .work-section{
@@ -250,6 +262,21 @@ body{
 
 /*about page section*/
 
+#third{
+    background-image: linear-gradient(to top, #5ce1e6, #53b9bd, #4a9295, #3e6e70, #324b4c);
+    width: 100%;  
+    margin-top: 100px; 
+}
+
+
+#About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 .card{
     display: flex;
@@ -287,6 +314,11 @@ body{
     max-height: fit-content;
     color: #324b4c;
     background: white;
+    border-top: 1px solid #808080;
+    border-right: 0;
+    border-left: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding-top: 10px;
     width: 100%;
 }
