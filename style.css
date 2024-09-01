@@ -150,9 +150,9 @@ body{
 }
 #webframe{
     -webkit-animation-name: zoomin;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     animation-name: zoomin ;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 @-webkit-keyframes zoomin {
     from{transform: scale(0.5, 0.5);}
@@ -161,6 +161,24 @@ body{
 @keyframes zoomin {
     from{transform: scale(0.5, 0.5);}
     to{transform: scale(1, 1);}
+}
+
+#shadowMonitor{
+    position: absolute;
+    height: 10px;
+    width: 350px;
+    margin-top: 38%;
+    background: rgba(0, 0, 0, 0.3) ;
+    border-radius: 40%;
+    filter: blur(3px);
+    transform: rotate(4deg);
+    animation: tail 2s ease-in-out;
+}
+
+@keyframes tail {
+    0%{width: 10%;}
+    100%{width: 35%;}
+
 }
 
 
