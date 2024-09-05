@@ -322,12 +322,15 @@ body{
     height:300px;
     padding-left: 10px;
 }
+.item-1 img{
+    height: 280px;
+}
 
 .item-1 h3{
     color: #5ce1e6;
     text-shadow: 1px 1px 1px #324b4c;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     letter-spacing: -2px;
 }
 
