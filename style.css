@@ -53,6 +53,7 @@ body{
 
 .heading a{
     max-width: fit-content;
+    margin-left: 10%;
 }
 
 .heading img{
@@ -62,6 +63,9 @@ body{
   margin-left: 20px;
 }
 
+.nav{
+    margin-right:20%;
+}
 
 .nav-item a{
     font-family: "Josefin Sans", sans-serif;
