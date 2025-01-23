@@ -1,3 +1,4 @@
+// Carousel added by admin
 const myslide = document.querySelectorAll('.myslides'),
  dot = document.querySelectorAll('.dot');
 
